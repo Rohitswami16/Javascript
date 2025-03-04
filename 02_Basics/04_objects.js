@@ -63,3 +63,24 @@ const course = {
 
 const {courseInstructor} = course
 console.log(courseInstructor);
+
+const {price: p} = course
+console.log(p);
+
+
+// API 
+
+// json 
+{
+    name: "mohan",
+    age: 19
+}
+
+
+
+// ARRAY 
+[
+   {},
+   {},
+   {}
+]
