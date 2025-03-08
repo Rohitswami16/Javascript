@@ -12,11 +12,13 @@
   </body>
 
   <script>
+
     function addLanguage(langName) {
       const li = document.createElement("li");
       li.innerHTML = `${langName}`;
       document.querySelector(".language").append(li);
     }
+
     addLanguage("Python");
     addLanguage("Java");
     addLanguage("Html");
@@ -52,5 +54,6 @@
     // remove
     const fourthLang = document.querySelector("li:last-child");
     fourthLang.remove();
+    
   </script>
 </html>
