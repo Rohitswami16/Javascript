@@ -1,5 +1,4 @@
 function SetUserName(username) {
-    
     // it will set to the oen this (SetUserName)
     this.username = username
     console.log("callled");
