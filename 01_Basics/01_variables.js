@@ -13,3 +13,14 @@ accountCity = "bengaluru"
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity , accountState])
+
+
+// ┌─────────┬───────────────────┐
+// │ (index) │ Values            │
+// ├─────────┼───────────────────┤
+// │ 0       │ 144553            │
+// │ 1       │ 'Mohan@gmail.com' │
+// │ 2       │ '212121'          │
+// │ 3       │ 'bengaluru'       │
+// │ 4       │ undefined         │
+// └─────────┴───────────────────┘

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example (Fixed)</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            gap: 20px;
+            height: 300px;
+            width: 500xp;
+            border-radius: 25px;
+        }
+
+        .grid-item{
+            background-color: aqua;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-item-span {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">mohan 1</div>
+        <div class="grid-item grid-item-span">moahn 2</div>
+        <div class="grid-item grid-item-span">mohan 3</div>
+        <div class="grid-item">mohan 4</div>
+    </div>
+    <br>
+    <br>
+    <button id="btn" onclick="document.body.style.backgroundColor='green'" style="background-color: green;">green</button>
+    <button id="btn" onclick="document.body.style.backgroundColor='yellow'" style="background-color: yellow;">yellow</button>
+    <button id="btn" onclick="document.body.style.backgroundColor='yellow'" style="background-color: yellow;">yellow</button>
+
+
+    <button id="nebtn">clickme</button>
+
+
+
+</body>
+</html>

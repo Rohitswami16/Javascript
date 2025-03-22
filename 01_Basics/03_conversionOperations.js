@@ -47,7 +47,6 @@ console.log(2/0)
 console.log(2%7)
 // 2 % 7 = 2
 
-
 let str1 = "Kiran"
 let str2 = "Kumar"
 
