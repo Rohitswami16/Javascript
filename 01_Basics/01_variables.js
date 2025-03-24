@@ -2,8 +2,7 @@ const accountId = 144553
 let accountEmail = "kiran@gmail.com"
 var accountPassword = "123456"
 accountCity = "Jaipur"
-
-let accountState;
+let accountState;  
 
 // accountId  = 2  // NOt allowed
 
@@ -24,3 +23,8 @@ console.table([accountId, accountEmail, accountPassword, accountCity , accountSt
 // │ 3       │ 'bengaluru'       │
 // │ 4       │ undefined         │
 // └─────────┴───────────────────┘
+
+/*  
+prefare not to use var
+because of issuew in bloack scope and functional scope
+*/
