@@ -12,7 +12,7 @@ const isAdmin5 = Symbol("isAdmin")  // Unique
 const id = Symbol('123')
 const anid = Symbol('123')
 
-console.log(id === anid)
+console.log(id === anid) // false
 
 
 // Non Primitive (Reference)
@@ -31,10 +31,10 @@ const myfunction = function() {
     console.log("hello world")
 }
 
-console.log(typeof myfunction);
+console.log(typeof myfunction);  // function
 
 
-// ************************** 
+// ********************************************************
 
 // Stack (primitive), Heap (non primitive)
 
@@ -43,8 +43,8 @@ let firstName = "Kirankumar"
 let secondName = firstName
 
 console.log(firstName);
-
 console.log(secondName);
+
 
 secondName = "Mohan"
 console.log(secondName);
